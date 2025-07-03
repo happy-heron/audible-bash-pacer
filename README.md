@@ -5,7 +5,9 @@ Whether you would like a metronome for music, for working out, or for any other 
 - [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (or a similar shell)
 - [cURL](https://en.wikipedia.org/wiki/CURL) (only for the installation process below; the script may be copied instead)
 # Installation
-`curl -O https://raw.githubusercontent.com/happy-heron/audible-pacer-script/refs/heads/main/audible-pacer-script.sh; chmod +x audible-pacer-script.sh`
+```bash
+curl -O https://raw.githubusercontent.com/happy-heron/audible-pacer-script/refs/heads/main/audible-pacer-script.sh; chmod +x audible-pacer-script.sh
+```
 # Parameters
 - `fileName`: The name of the file that the script will create.\
   (Default: `workout`)
