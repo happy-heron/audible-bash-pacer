@@ -9,9 +9,9 @@ Whether you would like a metronome for music, for working out, or for any other 
 curl -O https://raw.githubusercontent.com/happy-heron/audible-pacer-script/refs/heads/main/audible-pacer-script.sh; chmod +x audible-pacer-script.sh
 ```
 # Parameters
-1. `fileName`: The name of the file that the script will create.\
+1. The name of the file that the script will create.\
   (Default: `workout`)
-2. `numberOfSecPerBeat`: The number of seconds that will elapse before another beat occurs, e.g. 120 bpm would be `0.5`.\
+2. The number of seconds that will elapse before another beat occurs, e.g. 120 bpm would be `0.5`.\
   (Default: `3`)
-3. `secToGen`: The amount in seconds of audio to be generated.\
+3. The amount in seconds of audio to be generated.\
   (Default: `30`)
