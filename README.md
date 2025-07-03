@@ -1,5 +1,5 @@
 # Audible Pacer Script
-Wheather you would like a metronome for music, for working out, or for any other task, you can use this free and open source shell script. The simple script will generate a `.mp3` based off parameters you define.
+Whether you would like a metronome for music, for working out, or for any other task, you can use this free and open source shell script. The simple script will generate a `.mp3` based off parameters you define.
 # Dependencies
 - [ffmpeg](https://www.ffmpeg.org/)
 - [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (or a similar shell)
