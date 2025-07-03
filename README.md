@@ -11,5 +11,5 @@ Whether you would like a metronome for music, for working out, or for any other 
   (Default: `workout`)
 - `numberOfSecPerBeat`: The number of seconds that will elapse before another beat occurs, e.g. 120 bpm would be `0.5`.\
   (Default: `3`)
-- `secToGen`: The amount in seconds of audio will be generated.\
+- `secToGen`: The amount in seconds of audio to be generated.\
   (Default: `30`)
