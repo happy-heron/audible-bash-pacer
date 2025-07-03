@@ -1,9 +1,18 @@
 #!/bin/bash
 
-fileName=workout
+if [ -z "$1" ];
+then
+    set -- "workout" "${@:2:3}"
+fi
 
-numberOfSecPerBeat=3
+if [ -z "$2" ];
+then
+    set -- "${@:1}" "3" "${@:3}"
+fi
 
-secToGen=30
+if [ -z "$3" ];
+then
+    set -- "${@:1:2}" "30"
+fi
 
-ffmpeg -f lavfi -i "aevalsrc='sin(660*2*PI*t)*(1-mod(t,$numberOfSecPerBeat)/0.1)*lt(mod(t,$numberOfSecPerBeat),0.1)':d=$secToGen" -y $fileName.mp3
+ffmpeg -f lavfi -i "aevalsrc='sin(660*2*PI*t)*(1-mod(t,$2)/0.1)*lt(mod(t,$2),0.1)':d=$3" -y $1.mp3
